@@ -9,15 +9,12 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
-use app\models\Barang;
-use app\models\KategoriBarang;
 
 class SiteController extends Controller
 {
     /**
      * {@inheritdoc}
      */
-
     public function behaviors()
     {
         return [
@@ -64,24 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $query = Barang::find();
-        $queryGaming = Barang::find()->where('kategori_id = 3');
-        $queryMacbook = Barang::find()->where('kategori_id = 1')->orWhere('kategori_id = 4');
-
-        $barangTerbarus = $query->orderBy(['tanggal'=>SORT_DESC])
-            ->limit(8)->all();
-        $hotGamings = $queryGaming->orderBy(['harga'=>SORT_DESC])
-            ->limit(3)->all();
-        $hotMacbooks = $queryMacbook->orderBy(['harga'=>SORT_DESC])
-            ->limit(3)->all();
-        /*$hotGamings = $query->orderBy(['harga'=>SORT_DESC])
-            ->limit(3)->all();*/
-
-        return $this->render('index', [
-            'barangTerbarus' => $barangTerbarus,
-            'hotGamings'=>$hotGamings,
-            'hotMacbooks'=>$hotMacbooks
-        ]);
+        return $this->render('index');
     }
 
     /**
@@ -145,30 +125,28 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-    public function actionProducts()
+    public function actionForm()
     {
-        $query = Barang::find();
-        $pages = new \yii\data\Pagination([
-        'totalCount' => $query->count(),
-        'pageSize' => 6
-        ]);
-        $barangs = $query->offset($pages->offset)
-        ->limit($pages->limit)->all();
-        return $this->render('product', [
-        'barangs' => $barangs, 'pages' => $pages,
-        ]);
+        return $this->render('form');
     }
-    public function actionDaftar()
+    public function actionFormpetugas()
     {
-        return $this->render('daftar');
+        return $this->render('formPetugas');
     }
-    public function actionCheckout()
+    public function actionFormkirim()
     {
-        return $this->render('check-out');
+        return $this->render('formKirim');
     }
-    public function actionHistory()
+    public function actionFormpemasok()
     {
-        return $this->render('orderHistory');
+        return $this->render('formPemasok');
     }
-
+    public function actionDatapengguna()
+    {
+        return $this->render('dataPengguna');
+    }
+    public function actionDatakirim()
+    {
+        return $this->render('dataKirim');
+    }
 }

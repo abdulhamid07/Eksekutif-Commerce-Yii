@@ -9,8 +9,8 @@ $this->title = 'Eksekutif Komputer';
         <div class="main-slider2">
             <div class="bend niceties preview-1">
                 <div id="ensign-nivoslider-3" class="slides">
-                    <img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/slider/slider1.png" alt="" title="#slider-direction-1"/>
-                    <img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/slider/slider2.png" alt="" title="#slider-direction-3" />
+                    <img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/slider/slider1.webp" alt="slider1" title="#slider-direction-1"/>
+                    <img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/slider/slider2.webp" alt="slider2" title="#slider-direction-3" />
                 </div>
                 <div id="slider-direction-1" class="t-cn slider-direction">
                     <div class="slider-content t-lfl s-tb slider-1">
@@ -38,7 +38,7 @@ $this->title = 'Eksekutif Komputer';
                             <div class="services2-box-content">
                                 <a href="#" class="btn-services-shop-now">MACBOOK</a>
                             </div>
-                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/macbook.png" alt="services"></a>
+                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/macbook.webp" alt="services"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -46,7 +46,7 @@ $this->title = 'Eksekutif Komputer';
                             <div class="services2-box-content">
                                 <a href="#" class="btn-services-shop-now">LAPTOP GAMING</a>
                             </div>
-                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/gaming.jpg" alt="services"></a>
+                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/gaming.webp" alt="services"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -54,7 +54,7 @@ $this->title = 'Eksekutif Komputer';
                             <div class="services2-box-content">
                                 <a href="#" class="btn-services-shop-now">LAPTOP GRAFIS</a>
                             </div>
-                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/grafis.jpg" alt="services"></a>
+                            <a href="#"><img src="<?php echo $this->theme->baseUrl; ?>/files/img/eksekutif/grafis.webp" alt="services"></a>
                         </div>
                     </div>
                 </div>

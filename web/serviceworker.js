@@ -1,6 +1,5 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
   'offlinePage.html'
 ];
 
@@ -15,7 +14,7 @@ self.addEventListener('install', function(event) {
   );
 
 });
-/*
+
 self.addEventListener('activate', function(event) {
 
   event.waitUntil(
@@ -30,7 +29,7 @@ self.addEventListener('activate', function(event) {
     })
   );
 });
-*/
+
 self.addEventListener('fetch', function(event) {
     console.log('fetching url:'+event.request.url);
     event.respondWith(

@@ -9,31 +9,32 @@ use yii\debug\Toolbar;
 ?>
 <?php $this->beginPage(); ?>
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="theme-color" content="#317EFB"/>
     <title> <?php echo Html::encode($this->title); ?> </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->theme->baseUrl; ?>/files/img/favicon.png">
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/normalize.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/normalize.css" media="all">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/main.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/main.css" media="all">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/bootstrap.min.css" media="all">
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/animate.min.css" media="all">
     <!-- Font-awesome CSS-->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/font-awesome.min.css" media="all">
     <!-- Flaticon CSS-->
-    <link rel="stylesheet" type="text/css" href="<?php echo $this->theme->baseUrl; ?>/files/css/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->theme->baseUrl; ?>/files/css/font/flaticon.css" media="all">
     <!-- Owl Caousel CSS -->
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/owl.carousel.min.css" media="all">
+    <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/owl.theme.default.min.css" media="all">
     <!-- Main Menu CSS-->
     <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/css/meanmenu.min.css">
     <!-- Nivo Slider CSS-->
@@ -45,6 +46,8 @@ use yii\debug\Toolbar;
     <link rel="stylesheet" href="<?php echo $this->theme->baseUrl; ?>/files/style.css">
     <!-- Modernizr Js -->
     <script src="<?php echo $this->theme->baseUrl; ?>/files/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+
     <?php $this->head(); ?>
 </head>
 
@@ -151,7 +154,7 @@ use yii\debug\Toolbar;
     
     <!-- Preloader End Here -->
     <!-- jquery-->
-    <!--<script src="main.js" type="text/javascript"></script> -->
+    <!--<script src="main.js" type="text/javascript"></script>-->
     <script src="<?php echo $this->theme->baseUrl; ?>/files/js/vendor/jquery-2.2.4.min.js" type="text/javascript"></script>
     <!-- Bootstrap js -->
     <script src="<?php echo $this->theme->baseUrl; ?>/files/js/bootstrap.min.js" type="text/javascript"></script>

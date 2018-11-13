@@ -22,7 +22,7 @@
                                     <div class="header-contact">
                                         <ul>
                                             <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> + 123 456 7890</a></li>
-                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> info@metro.com</a></li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> eksekutif@gmail.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -37,12 +37,12 @@
                     <div class="header-top-inner-bottom">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="col-lg-3">
                                     <div class="logo-area">
                                         <a href="index.html"><img class="img-responsive" src="<?php echo $this->theme->baseUrl; ?>/files/img/logoec.png" alt="logo" width="45%"></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <div class="col-lg-7">
                                     <div class="search-area">
                                         <div class="input-group" id="adv-search">
                                             <input type="text" class="form-control" placeholder="Search Product" />
@@ -54,7 +54,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                <div class="col-lg-2">
                                     <ul class="header-cart-area">
                                         <li>
                                             <div class="cart-area">
@@ -132,9 +132,7 @@
                                             </div>
                                         </li>
                                         <li>
-                                                <a class="additional-menu-area" href="login-registration.html">
-                                                    <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-                                                </a>
+                                               <a href="#" class="btn btn-default"><b>MASUK</b></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -194,7 +192,7 @@
                                             <ul>
                                                  <li class="active"><a href="">HOME</a>
                                             </li>
-                                            <li><a href="about.html">TENTANG KAMI</a></li>
+                                            <li><a href="index.php?r=site/about">TENTANG KAMI</a></li>
                                             <li><a href="#">PRODUK</a>
                                                 <ul>
                                                     <li class="has-child-menu"><a href="#">KATEGORI</a>
@@ -215,7 +213,7 @@
                                             </li>
                                             <li><a href="#">ACCOUNT</a></li>
                                             <li><a href="#">VIEW CART</a></li>
-                                            <li><a href="contact.html">HUBUNGI</a></li>
+                                            <li><a href="index.php?r=site/contact">HUBUNGI</a></li>
                                             </ul>
                                         </nav>
                                     </div>
