@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label class="control-label" for="first-name">Pembeli*</label>
-                                            <input style="border:1px solid #000;" type="text" id="first-name" readonly class="form-control">
+                                            <input style="border:1px solid #000;" type="text" id="first-name" readonly class="form-control" value="xxxxxxxxxxxxxxxxxxxx">
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="company-name">Alamat Kirim *</label>
@@ -44,6 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                           <label for="exampleInputPassword1">Metode Pengiriman *</label>
                                          <select style="border:1px solid #000;" name="merkBarang" class="form-control">
                                            <option value="">- Pilih Pengiriman -</option>
+                                           <option value="" selected="">xxxxxxxxxx</option>
                                          </select>
                                         </div>
                                     </div>

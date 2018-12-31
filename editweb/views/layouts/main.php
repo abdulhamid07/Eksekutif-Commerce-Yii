@@ -16,13 +16,14 @@ if (Yii::$app->controller->action->id === 'login') {
     );
 } else {
 
-    if (class_exists('backend\assets\AppAsset')) {
-        backend\assets\AppAsset::register($this);
-    } else {
+    //if (class_exists('backend\assets\AppAsset')) {
+        //backend\assets\AppAsset::register($this);
+    //} else {
         app\assets\AppAsset::register($this);
-    }
+    //}
 
     dmstr\web\AdminLteAsset::register($this);
+    dmstr\web\AdminLtePluginAsset::register($this);
 
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
     ?>
@@ -35,10 +36,9 @@ if (Yii::$app->controller->action->id === 'login') {
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-        
         <?php $this->head() ?>
     </head>
-    <body class="hold-transition skin-blue sidebar-mini">
+    <body class="<?= \dmstr\helpers\AdminLteHelper::skinClass() ?>">
     <?php $this->beginBody() ?>
     <div class="wrapper">
 
@@ -59,7 +59,19 @@ if (Yii::$app->controller->action->id === 'login') {
         ) ?>
 
     </div>
-
+     <script language="javascript">
+  $(function () {
+    $('#dataPengguna').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
+    })
+  })
+</script>
     <?php $this->endBody() ?>
     
     </body>

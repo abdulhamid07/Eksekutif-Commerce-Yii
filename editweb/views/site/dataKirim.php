@@ -29,46 +29,46 @@ $this->params['breadcrumbs'][] = $this->title;
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>9999-99-99</td>
+                  <td>xxxxxxxxxx</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                <tr>
                   <td>2</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>9999-99-99</td>
+                  <td>xxxxxxxxxx</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>9999-99-99</td>
+                  <td>xxxxxxxxxx</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>9999-99-99</td>
+                  <td>xxxxxxxxxx</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                	<tr>
                   <td>5</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>9999-99-99</td>
+                  <td>xxxxxxxxxx</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>

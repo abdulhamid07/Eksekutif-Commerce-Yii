@@ -41,54 +41,48 @@ $this->params['breadcrumbs'][] = $this->title;
                                 </thead>
                                 <tbody>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2104578<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>November 13, 2017</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="pending">Pending</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="pending">xxxxxxxxxx</td>
                                     </tr>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2106548<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>December 16, 2016</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="processing">Processing</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="processing">xxxxxxxxxx</td>
                                     </tr>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2106523<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>November 20, 2016</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="complete">Complete</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="complete">xxxxxxxxxx</td>
                                     </tr>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2109421<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>August 13, 2016</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="complete">Complete</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="complete">xxxxxxxxxx</td>
                                     </tr>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2107701<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>June 25, 2015</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="canceled">Canceled</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="pending">xxxxxxxxxx</td>
                                     </tr>
                                     <tr>                                        
-                                        <td><a href="order-details.html">#2104913<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>January 18, 2015</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="complete">Complete</td>
+                                        <td><a href="order-details.html">#999<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
+                                        <td>9999-99-99</td>
+                                        <td>99</td>
+                                        <td>Rp. 99999999</td>
+                                        <td class="processing">xxxxxxxxxx</td>
                                     </tr>
-                                    <tr>                                        
-                                        <td><a href="order-details.html">#2156741<i class="fa fa-paperclip" aria-hidden="true"></i></a></td>
-                                        <td>November 10, 2014</td>
-                                        <td>3</td>
-                                        <td>Rp. 20.000.000</td>
-                                        <td class="complete">Complete</td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>

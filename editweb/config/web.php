@@ -16,7 +16,7 @@ $config = [
         'assetManager' => [
             'bundles' => [
                 'dmstr\web\AdminLteAsset' => [
-                    'skin' => 'skin-blue',
+                    'skin' => 'skin-green',
                 ],
             ],
         ],

@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Input Data Petugas';
+$this->title = 'Input Data Pengguna';
 $this->params['breadcrumbs'][] = $this->title;
 ?>        
       <div class="box box-primary">

@@ -154,7 +154,7 @@ use yii\debug\Toolbar;
     
     <!-- Preloader End Here -->
     <!-- jquery-->
-    <!--<script src="main.js" type="text/javascript"></script>-->
+    <script src="main.js" type="text/javascript"></script>
     <script src="<?php echo $this->theme->baseUrl; ?>/files/js/vendor/jquery-2.2.4.min.js" type="text/javascript"></script>
     <!-- Bootstrap js -->
     <script src="<?php echo $this->theme->baseUrl; ?>/files/js/bootstrap.min.js" type="text/javascript"></script>

@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <!-- /.box-header -->
             <div class="box-body">
             	
-              <table id="example1" class="table table-bordered table-striped">
+              <table id="example1" class="table table-bordered table-hover table-striped">
                 <thead>
                 <tr>
                   <th width="5%">No</th>
@@ -29,46 +29,46 @@ $this->params['breadcrumbs'][] = $this->title;
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>999999999999999</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                <tr>
                   <td>2</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>999999999999999</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>999999999999999</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>999999999999999</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>
                	<tr>
                   <td>5</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
-                  <td>xxx</td>
+                  <td>xxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>xxxxxxxxxxxxxxxxxxxx</td>
+                  <td>999999999999999</td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-warning">Edit</button></td>
                   <td><a href="#"><button class="btn btn-sm btn-flat btn-default">Hapus</button></td>
                 </tr>

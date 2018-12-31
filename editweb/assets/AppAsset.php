@@ -19,10 +19,9 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
+    //public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
 
     public $css = [
-        'datatables/dataTables.bootstrap.css',
         'css/site.css',
     ];
     public $js = [
